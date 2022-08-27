@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>FptContact Email</title>
+  </head>
+
+  <body
+    class=""
+    style="
+      background-color: #e5e5e5;
+      font-family: sans-serif;
+      -webkit-font-smoothing: antialiased;
+      font-size: 12px;
+      line-height: 1.4;
+      margin: 0;
+      padding: 0;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    "
+  >
+    <table
+      class="body"
+      style="
+        border-collapse: separate;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+        width: 100%;
+        padding: 0;
+        background-color: #ffffff;
+      "
+      border="0"
+      cellspacing="0"
+      cellpadding="0"
+    >
+      <tbody>
+        <tr>
+          <td
+            style="
+              font-family: sans-serif;
+              font-size: 12px;
+              vertical-align: top;
+            "
+          >
+             
+          </td>
+          <td
+            class="container"
+            style="
+              font-family: sans-serif;
+              font-size: 12px;
+              vertical-align: top;
+              display: block;
+              margin: 0 auto;
+              max-width: 800px;
+              padding: 0;
+              width: 800px;
+            "
+          >
+            <div
+              class="content"
+              style="
+                box-sizing: border-box;
+                display: block;
+                margin: 0;
+                max-width: 800px;
+                padding: 0;
+              "
+            >
+              <!-- START CENTERED WHITE CONTAINER -->
+              <div
+                class="header"
+                style="
+                  display: inline-block;
+                  clear: both;
+                  text-align: center;
+                  width: 100%;
+                  background: url('https://i.imgur.com/aisEGz2.png') no-repeat
+                    center;
+                  background-size: cover;
+                "
+              >
+                <img
+                  style="
+                    float: left;
+                    padding: 5% 0 4% 5%;
+                    max-width: 38%;
+                    height: auto;
+                    min-height: 32px;
+                  "
+                  src="https://i.imgur.com/WCHvfh1.png"
+                  alt="FPT.eContract"
+                />
+              </div>
+              <table
+                class="main"
+                style="
+                  border-collapse: separate;
+                  mso-table-lspace: 0pt;
+                  mso-table-rspace: 0pt;
+                  width: 100%;
+                  background: #ffffff;
+                  border-radius: 3px;
+                "
+              >
+                <!-- START MAIN CONTENT AREA -->
+                <tbody>
+                  <tr>
+                    <td
+                      class="wrapper"
+                      style="
+                        font-family: sans-serif;
+                        font-size: 12px;
+                        vertical-align: top;
+                        box-sizing: border-box;
+                        padding: 5%;
+                        padding-bottom: 0;
+                      "
+                    >
+                      <table
+                        style="
+                          border-collapse: separate;
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          width: 100%;
+                        "
+                        border="0"
+                        cellspacing="0"
+                        cellpadding="0"
+                      >
+                        <tbody>
+                          <tr>
+                            <td
+                              style="
+                                font-family: sans-serif;
+                                font-size: 12px;
+                                vertical-align: top;
+                              "
+                            >
+                              <div
+                                style="
+                                  background: rgba(233, 234, 247, 0.5);
+                                  margin-bottom: 16px;
+                                  padding-top: 24px;
+                                "
+                              >
+                                <p
+                                  style="
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 24px;
+                                    margin-bottom: 24px;
+                                    margin-top: 0;
+                                    margin-left: 5px;
+                                    color: #121e28; 
+                                  "
+                                  th:with="rqtNameMail=(@{|Chào ${rcpName}|})"
+                                  th:text="${rqtNameMail}"
+                                >
+                                  Chào <strong>HieuLT35</strong>,
+                                </p>
+                                <p
+                                  style="
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 24px;
+                                    margin-bottom: 24px;
+                                    margin-top: 0;
+                                    margin-left: 5px;
+                                    color: #121e28;
+                                  "
+                                  th:with="nameDocSend1=(@{|Mật khẩu account|})"
+                                  th:text="${nameDocSend1}"
+                                >
+                                  Mật khẩu account 
+                                  <span style="font-size: 11pt; font-weight: bold;"
+                                  th:with="nameDocSend2=(@{|${rcpName}|})"
+                                  th:text="${nameDocSend2}"><strong>HieuLT35</strong> </span>
+
+                                  <span style="font-weight: 500;
+                                  font-size: 14px;
+                                  line-height: 24px;
+                                  margin-bottom: 24px;
+                                  margin-top: 0;
+                                  margin-left: 5px;
+                                  color: #121e28;"
+                                      th:with="nameDocSend3=(@{|sẽ hết hạn trong |})"
+                                      th:text="${nameDocSend3}">
+                                      sẽ hết hạn trong
+                                  </span>
+                                  <span style="font-weight: 500;
+                                  font-size: 14px;
+                                  line-height: 24px;
+                                  margin-bottom: 24px;
+                                  margin-top: 0;
+                                  margin-left: 5px;
+                                  color: #ff0000;"
+                                      th:with="nameDocSend4=(@{|${timeExpiredDay}|})"
+                                      th:text="${nameDocSend4}"><span style="font-size: 18pt; color: #ff0000"
+                                      >7</span>
+                                      <span style="font-weight: 500;
+                                      font-size: 14px;
+                                      line-height: 24px;
+                                      margin-bottom: 24px;
+                                      margin-top: 0;
+                                      margin-left: 5px;
+                                      color: #121e28;"
+                                          th:with="nameDocSend5=(@{| ngày. Hãy thay đổi mật khẩu của bạn ngay khi
+                                          có thể.|})"
+                                          th:text="${nameDocSend5}"
+                                          >
+                                          ngày. Hãy thay đổi mật khẩu của bạn ngay khi
+                                          có thể. 
+                                          </span>
+                                </p>
+                                
+                                <p
+                                  style="
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 24px;
+                                    margin-bottom: 24px;
+                                    margin-top: 0;
+                                    margin-left: 5px;
+                                    color: #121e28;
+                                  "
+                                  th:with="nameDocSend6=(@{|Xin cảm ơn!|})"
+                                  th:text="${nameDocSend6}"
+                                  >
+                                  Xin cảm ơn!
+                                </p>
+                                <p
+                                style="font-weight: 500; margin-top: 0; margin-bottom: 16px; font-size: 14px; line-height: 20px; color: #121e28; margin-left: 5px;"
+                                  th:with="nameDocSend7=(@{|Đây là mail tự động gửi từ hệ thống, vui lòng
+                                    không reply lại.|})"
+                                  th:text="${nameDocSend7}"
+                                >
+                                <span style="font-size: 10pt;"><em> Đây là mail tự động gửi từ hệ thống, vui lòng không reply lại.</em></span>
+                                </p>
+                                <div>
+                                  <p
+                                    style="
+                                      font-size: 14px;
+                                      line-height: 24px;
+                                      padding: 8px 20px;
+                                      font-weight: bold;
+                                      text-decoration: none;
+                                      margin-bottom: 17px;
+                                      display: inline-block;
+                                      background: #2e6cf6;
+                                      color: #fff;
+                                      margin-left: 270px;
+                                    "
+
+                                  >
+                                    <span style="text-decoration: underline"
+                                    th:with="url=(@{|${baseUrl}|})"
+                                    th:href="${url}"
+                                      >Thay đổi mật khẩu</span
+                                    >
+                                  </p>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- END MAIN CONTENT AREA -->
+                </tbody>
+              </table>
+              <!-- END CENTERED WHITE CONTAINER -->
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+
